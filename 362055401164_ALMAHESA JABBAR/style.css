@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+}
+
+.header {
+    height: 70px;
+    background-color: #333;
+}
+
+.icon button {
+    float: right;
+    position: relative;
+    bottom: 30px;
+    right: 5px;
+    display: none;
+}
+
+.header a {
+    position: relative;
+    top: 10px;
+}
+
+.collapse navbar-collapse {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container img {
+    width: 400px;
+    height: 410px;
+    padding: 10px;
+    border-radius: 500px 500px 20px 20px;
+    box-shadow: 200px black;
+}
+
+.collapse navbar-collapse ul li {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.mobile-menu {
+    float: right;
+    display: none;
+    padding: 18px;
+}
+
+.banner {
+    background-color: #093533a9;
+    padding: 50px 0;
+}
+
+section {
+    padding: 0px 0;
+}
+
+.efek-ngetik {
+    color: blanchedalmond;
+}
+
+.banner h2,
+.banner p,
+{
+    color: #090909;
+}
+
+.banner h2 {
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.banner-left {
+    padding-left: 24px;
+}
+
+.nav {
+    position: relative;
+    float: right;
+    top: 30px;
+    padding: 10px;
+    left: 8px;
+    border: outset;
+}
+
+nav a:hover {
+    background-color: rgb(192, 112, 112);
+    transition: .4s;
+}
+
+nav:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    padding: 30px;
+    text-align: center;
+}
+
+footer small {
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px;
+)
